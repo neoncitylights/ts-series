@@ -31,19 +31,19 @@ There are 3 types of a progression in math:
     ```
 ### API
 #### Generators
- * <a href="#newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newArithmeticProgression)
- * <a href="#newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newGeometricProgression)
- * <a href="#newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newHarmonicProgression)
+ * `fn`: <a href="#newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newArithmeticProgression)
+ * `fn`: <a href="#newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newGeometricProgression)
+ * `fn`: <a href="#newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newHarmonicProgression)
 #### Predicates
- * <a href="#isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.io/ts-scale/modules.html#isArithmeticProgression)
- * <a href="#isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isGeometricProgression)
- * <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isHarmonicProgression)
+ * `fn`: <a href="#isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.io/ts-scale/modules.html#isArithmeticProgression)
+ * `fn`: <a href="#isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isGeometricProgression)
+ * `fn`: <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isHarmonicProgression)
 
 #### Totals (sums and products)
- * <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray)
- * <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds)
- * <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray)
- * <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds)
+ * `fn`: <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray)
+ * `fn`: <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds)
+ * `fn`: <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray)
+ * `fn`: <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds)
 #### Constants
 There are constants for certain music intervals that can be used coincide with the generator functions.
 
