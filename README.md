@@ -18,17 +18,11 @@ npm install @neoncitylights/scale
 
 There are 3 types of a progression in math:
   - **Arithmetic progression**: A sequence of numbers where the consecutive difference between each term is a constant.[^arith-wolfram][^arithm-wiki] E.g., an arithmetic progression of 5 numbers, with 2 as the common difference, starting at 1:
-    $$
-    1, 3, 5, 7, 9
-    $$
+$$1, 3, 5, 7, 9$$
   - **Geometric progression**: A sequence of numbers where there is a common ratio between each term.[^geo-wolfram][^geo-wiki] That ratio is found by multiplying the previous term by a non-zero number.  E.g., a geometric progression of 6 numbers, with 2 as the common ratio, starting at 5:
-    $$
-    5, 10, 20, 40, 80, 160
-    $$
+$$5, 10, 20, 40, 80, 160$$
   - **Harmonic progression**: A sequence of numbers where each term is the harmonic mean of its previous term and next term.[^harmonic-wiki] E.g., a harmonic progression of 6 numbers, with 2 as the scaling value, starting at 1:
-    $$
-    1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \frac{1}{5}, \frac{1}{6}
-    $$
+$$1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \frac{1}{5}, \frac{1}{6}$$
 
 ### API
 #### Generators
