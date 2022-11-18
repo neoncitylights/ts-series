@@ -45,21 +45,24 @@ There are 3 types of a progression in math:
  * `fn`: <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds)
  * `fn`: <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray)
  * `fn`: <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds)
-#### Constants
+<details>
+<summary><h4>Constants</h4></summary>
+
 There are constants for certain music intervals that can be used coincide with the generator functions.
 
-* <a href="#minorSecond">#</a> MinorSecond
-* <a href="#majorSecond">#</a> MajorSecond
-* <a href="#minorThird">#</a> MinorThird
-* <a href="#majorThird">#</a> MajorThird
-* <a href="#perfectThird">#</a> PerfectThird
-* <a href="#augmentedFourth">#</a> AugmentedFourth
-* <a href="#perfectFifth">#</a> PerfectFifth
-* <a href="#goldenRatio">#</a> GoldenRatio
-* <a href="#majorSixth">#</a> MajorSixth
-* <a href="#majorSeventh">#</a> MajorSeventh
-* <a href="#emptySum">#</a> EmptySum
-* <a href="#emptyProduct">#</a> EmptyProduct
+* `C`: <a href="#minorSecond">#</a> MinorSecond
+* `C`: <a href="#majorSecond">#</a> MajorSecond
+* `C`: <a href="#minorThird">#</a> MinorThird
+* `C`: <a href="#majorThird">#</a> MajorThird
+* `C`: <a href="#perfectThird">#</a> PerfectThird
+* `C`: <a href="#augmentedFourth">#</a> AugmentedFourth
+* `C`: <a href="#perfectFifth">#</a> PerfectFifth
+* `C`: <a href="#goldenRatio">#</a> GoldenRatio
+* `C`: <a href="#majorSixth">#</a> MajorSixth
+* `C`: <a href="#majorSeventh">#</a> MajorSeventh
+* `C`: <a href="#emptySum">#</a> EmptySum
+* `C`: <a href="#emptyProduct">#</a> EmptyProduct
+</details>
 
 ## Examples
 ### Convergent series
