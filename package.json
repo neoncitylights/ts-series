@@ -22,11 +22,11 @@
 	},
 	"type": "module",
 	"types": "./dist/index.d.ts",
-	"module": "./dist/index.js",
+	"module": "./dist/scale.mjs",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/scale.mjs"
 		}
 	},
 	"files": [
