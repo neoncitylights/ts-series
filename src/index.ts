@@ -2,4 +2,4 @@ export { EmptyProduct, EmptySum, MinorSecond, MajorSecond, MinorThird, MajorThir
 export { newArithmeticProgression, newGeometricProgression, newHarmonicProgression } from './generators';
 export { isArithmeticProgression, isGeometricProgression, isHarmonicProgression } from './predicates';
 export { getSumFromArray, getSumFromBounds, getProductFromArray, getProductFromBounds } from './totals';
-export { ProgressionGenerator, ProgressionPredicate, ProgressionResult, ProgressionType } from './types';
+export type { ProgressionGenerator, ProgressionPredicate, ProgressionResult, ProgressionType } from './types';

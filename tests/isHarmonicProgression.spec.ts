@@ -1,3 +1,4 @@
+import { expect, test } from 'vitest';
 import { isHarmonicProgression } from '../src';
 
 test('isHarmonicProgression detects correctly', () => {
