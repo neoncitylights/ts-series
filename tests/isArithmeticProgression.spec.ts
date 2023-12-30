@@ -1,4 +1,5 @@
 import { expect, test } from 'vitest';
+
 import { isArithmeticProgression } from '../src';
 
 test('isArithmeticProgression detects correctly', () => {
