@@ -101,9 +101,12 @@ newGeometricProgression(16, 6, MajorSecond).map(n => `${Math.round(n)}px`);
 ```
 
 ## License
-This library is licensed under the [MIT License](./LICENSE).
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale?ref=badge_large)
+This library is licensed under the MIT license ([`LICENSE-MIT`](./LICENSE) or <http://opensource.org/licenses/MIT>).
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the MIT license, shall be licensed as above, without any additional terms or conditions.
 
 [^arith-wolfram]: Weisstein, Eric W. "Arithmetic Progression." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/ArithmeticProgression.html 
 [^geo-wolfram]:  Weisstein, Eric W. "Geometric Sequence." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/GeometricSequence.html 

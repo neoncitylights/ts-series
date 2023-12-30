@@ -1,4 +1,7 @@
+import { describe, expect, test } from 'vitest';
+
 import { getProductFromArray, getProductFromBounds, getSumFromArray, getSumFromBounds } from '../src';
+
 describe('series', () => {
 	describe('from array', () => {
 		test('generates correctly', () => {

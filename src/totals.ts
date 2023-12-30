@@ -1,4 +1,4 @@
-import { EmptySum, EmptyProduct } from './consts';
+import { EmptyProduct,EmptySum } from './consts';
 
 /**
  * Computes the series of numbers given an inclusive lower
@@ -19,7 +19,7 @@ import { EmptySum, EmptyProduct } from './consts';
 export function getSumFromBounds(
 	lowerBound: number,
 	upperBound: number,
-	lambda: (n: number) => number = (n) => n
+	lambda: (n: number) => number = (n) => n,
 ): number {
 	if (lowerBound > upperBound) { throw new RangeError(); }
 	if (lowerBound === upperBound) { return EmptySum; }
@@ -46,7 +46,7 @@ export function getSumFromBounds(
  */
 export function getSumFromArray(
 	summands: number[],
-	lambda: (n: number) => number = (n) => n
+	lambda: (n: number) => number = (n) => n,
 ): number {
 	return summands.reduce((sum, n) => sum + lambda(n), EmptySum);
 }
@@ -69,7 +69,7 @@ export function getSumFromArray(
 export function getProductFromBounds(
 	lowerBound: number,
 	upperBound: number,
-	lambda: (n: number) => number = (n) => n
+	lambda: (n: number) => number = (n) => n,
 ): number {
 	if (lowerBound > upperBound) { throw new RangeError(); }
 	if (lowerBound === upperBound) { return EmptyProduct; }
@@ -95,7 +95,7 @@ export function getProductFromBounds(
  */
 export function getProductFromArray(
 	factors: number[],
-	lambda: (n: number) => number = (n) => n
+	lambda: (n: number) => number = (n) => n,
 ): number {
 	return factors.reduce((product, n) => product * lambda(n), EmptyProduct);
 }
