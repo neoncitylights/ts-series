@@ -11,3 +11,8 @@ This package was renamed from `@neoncitylights/series` to `@neoncitylights/scale
 ### Breaking changes
 
 - Converted from UMD to ESM [(#264)](https://github.com/neoncitylights/ts-series/pull/264)
+
+### Internal changes
+
+- Converted from Webpack to Vite [(#264)](https://github.com/neoncitylights/ts-series/pull/264)
+- Converted from Jest to Vitest [(#264)](https://github.com/neoncitylights/ts-series/pull/264)
