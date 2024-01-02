@@ -11,10 +11,10 @@
 		"progression",
 		"sequences"
 	],
-	"bugs": "https://github.com/neoncitylights/ts-scale/issues",
+	"bugs": "https://github.com/neoncitylights/ts-series/issues",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/neoncitylights/ts-scale.git"
+		"url": "git+https://github.com/neoncitylights/ts-series.git"
 	},
 	"funding": {
 		"type": "individual",
@@ -22,11 +22,11 @@
 	},
 	"type": "module",
 	"types": "./dist/index.d.ts",
-	"module": "./dist/scale.mjs",
+	"module": "./dist/series.mjs",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"import": "./dist/scale.mjs"
+			"import": "./dist/series.mjs"
 		}
 	},
 	"files": [

@@ -10,4 +10,4 @@ This package was renamed from `@neoncitylights/series` to `@neoncitylights/scale
 
 ### Breaking changes
 
-- Converted from UMD to ESM [(#264)](https://github.com/neoncitylights/ts-scale/pull/264)
+- Converted from UMD to ESM [(#264)](https://github.com/neoncitylights/ts-series/pull/264)
