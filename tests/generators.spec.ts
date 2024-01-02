@@ -11,7 +11,7 @@ describe('newArithmeticProgression', () => {
 		expect(newArithmeticProgression(5, 5, 0)).toStrictEqual([5, 5, 5, 5, 5]);
 	});
 
-	test('computed correctly', () => {
+	test('generates correctly', () => {
 		expect(newArithmeticProgression(1, 10, 2)).toStrictEqual([1, 3, 5, 7, 9, 11, 13, 15, 17, 19]);
 	});
 });
