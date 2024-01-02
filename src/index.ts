@@ -1,5 +1,5 @@
-export { AugmentedFourth, EmptyProduct, EmptySum, GoldenRatio, MajorSecond, MajorSixth, MajorThird, MinorSecond, MinorSeventh,MinorThird, PerfectFifth, PerfectThird} from './consts';
-export { newArithmeticProgression, newGeometricProgression, newHarmonicProgression } from './generators';
-export { isArithmeticProgression, isGeometricProgression, isHarmonicProgression } from './predicates';
-export { getProductFromArray, getProductFromBounds,getSumFromArray, getSumFromBounds } from './totals';
-export type { ProgressionGenerator, ProgressionPredicate, ProgressionResult, ProgressionType } from './types';
+export * from './consts';
+export * from './generators';
+export * from './predicates';
+export * from './totals';
+export type * from './types';
