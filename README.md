@@ -1,7 +1,7 @@
-# @neoncitylight/series
+# @neoncitylights/series
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![npm (scoped)](https://img.shields.io/npm/v/@neoncitylight/series?style=flat-square)](https://www.npmjs.com/package/@neoncitylight/series)
+[![npm (scoped)](https://img.shields.io/npm/v/@neoncitylights/series?style=flat-square)](https://www.npmjs.com/package/@neoncitylights/series)
 [![Codecov](https://img.shields.io/codecov/c/github/neoncitylights/ts-series?style=flat-square&logo=codecov&logoColor=%23fff)](https://codecov.io/gh/neoncitylights/ts-series)
 [![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/neoncitylights/ts-series/.github%2Fworkflows%2Fci.yml?style=flat-square)](https://github.com/neoncitylights/ts-series/actions/workflows/ci.yml)
 
@@ -10,7 +10,7 @@ A TypeScript math library for working with progressions and series.
 ## Install
 
 ```bash
-npm install @neoncitylight/series
+npm install @neoncitylights/series
 ```
 
 ## Documentation
