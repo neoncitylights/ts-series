@@ -7,7 +7,7 @@ No release notes yet.
 ## 1.0.1 (2024-01-03)
 
 ### Bug fix
-- Fix package name typo, sync package-lock.json with package.json
+- Fix package name typo, sync package-lock.json with package.json [(#275)](https://github.com/neoncitylights/ts-series/pull/275)
 
 ## 1.0.0 (2024-01-02)
 
