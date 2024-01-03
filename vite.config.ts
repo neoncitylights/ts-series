@@ -8,7 +8,7 @@ export default defineConfig({
 		lib: {
 			entry: path.resolve(__dirname, 'src/index.ts'),
 			formats: ['es'],
-			fileName: () => 'scale.mjs',
+			fileName: () => 'series.mjs',
 		},
 	},
 	define: { 
